@@ -13,7 +13,7 @@
 (setq-default indent-tabs-mode nil)
 
 ;;Bind M-x to helm-M-x
-(global-set-key (kdb "M-x") 'helm-M-x)
+(global-set-key (kbd "M-x") 'helm-M-x)
 
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
