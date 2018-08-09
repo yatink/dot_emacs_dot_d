@@ -26,7 +26,18 @@
      helm-ag
      helm
      flycheck)))
- '(jedi:environment-root "jedi")
+ ;; For python-2.7
+ ;; '(jedi:environment-root "jedi")
+ ;; '(jedi:environment-virtualenv nil)
+ ;; For python-3.6
+ '(jedi:environment-root "jedi3")
+ '(jedi:environment-virtualenv
+   (quote
+    (
+     "virtualenv"
+     "--system-site-packages"
+     "--quiet"
+     "--python=/usr/bin/python3")))
  )
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
