@@ -10,6 +10,7 @@
  '(package-selected-packages
    (quote
     (
+     gnu-elpa-keyring-update
      docker-compose-mode
      dockerfile-mode
      magit
