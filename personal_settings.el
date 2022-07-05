@@ -6,7 +6,7 @@
 (helm-projectile-on)
 
 ;; Turn on global-magit-file
-(global-magit-file-mode)
+;;(global-magit-file-mode) Not sure why this isn't working, disable for now.
 
 ;; Global flycheck
 (global-flycheck-mode)
